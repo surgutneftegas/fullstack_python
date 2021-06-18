@@ -1,0 +1,15 @@
+heigh = 220
+age = 18
+child = 1
+study_now = str()
+if 18 <= age <= 27 and child < 2:
+    if heigh < 170:
+        print("В танкисты")
+    elif heigh < 180:
+        print("На флот")
+    elif heigh < 200:
+        print("В десантники")
+    else:
+        print("В другие войска")
+else:
+    print("Не призывной")
